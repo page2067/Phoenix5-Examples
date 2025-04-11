@@ -46,10 +46,10 @@ public class Robot extends TimedRobot {
     /*
      * --- [1] Update CAN Device IDs ------
      */
-    WPI_TalonFX _rghtFront = new WPI_TalonFX(1, "rio");
-    WPI_TalonFX _rghtFollower = new WPI_TalonFX(10, "rio");
-    WPI_TalonFX _leftFront = new WPI_TalonFX(2, "rio");
-    WPI_TalonFX _leftFollower = new WPI_TalonFX(20, "rio");
+    WPI_TalonFX _rghtFront = new WPI_TalonFX(2, "rio");
+    WPI_TalonFX _rghtFollower = new WPI_TalonFX(4, "rio");
+    WPI_TalonFX _leftFront = new WPI_TalonFX(1, "rio");
+    WPI_TalonFX _leftFollower = new WPI_TalonFX(3, "rio");
 
     WPI_Pigeon2 _pidgey = new WPI_Pigeon2(1, "rio");
 
